@@ -1,7 +1,6 @@
 /* style for body */
 body{
-  background-size: cover;
-  background-attachment: fixed;
+
 }
 /* this style is added to all elements */
 *{
@@ -14,6 +13,8 @@ body{
   color: white;
   overflow: hidden;
   margin-top: 0px;
+  position: fixed;
+  width: 100vw;
 }
 /* style for the navbar menus */
 .navbar a{
@@ -43,12 +44,15 @@ body{
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40%;
   margin-left:auto;
   margin-right:auto;
   display: block;
   margin-top: 100px;
   border-radius: 10px;
+}
+/* style for login card */
+#login-card{
+  width: 40%;
 }
 
 .card-title{
@@ -69,3 +73,58 @@ input[type="submit"],input[type="button"]{
   border-radius: 20px;
   margin-top: 10px;
 }
+/*style the side navbar*/
+.sidenav{
+background-color: #40403f;
+height: 100vh;
+margin-top: 58px;
+margin-left: 0px;
+width:15%;
+position: fixed;
+float: left;
+}
+.sidenav a{
+text-decoration: none;
+display: block;
+padding: 15px;
+color: white;
+}
+.sidenav a:hover{
+  background-color: #e3e3e0;
+  color: #40403f;
+
+}
+/* style for the side body adjusent to sidenav */
+.sidebody{
+  width: 85%;
+  height: 100vh;
+  float: right;
+
+}
+/* style for row with search box */
+.toprow{
+  margin-top: 58px;
+  padding-left: 50px;
+  border-bottom: 1px solid #e3e3e0;
+  height :50px;
+  }
+.toprow input{
+  border-radius: 20px;
+  width:200px;
+  height:35px;
+}
+/* style for table */
+table{
+width: 98%;
+border-collapse: collapse;
+margin-left: 1%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* style for cart details */
