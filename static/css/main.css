@@ -23,3 +23,49 @@ body{
   text-decoration: none;
 
 }
+/* style for body image */
+.main img{
+  display: block;
+  margin:auto;
+  margin-top: 50px;
+}
+/* style for main */
+.main{
+
+}
+/*style for columns*/
+[class*="column-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* style for card */
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.card-title{
+  margin-top: 0px;
+}
+/* style all inputs */
+input, label{
+margin-left: 100px;
+height:30px;
+width: 300px;
+margin-bottom: 10px;
+
+}
+/* style for all  buttons */
+input[type="submit"],input[type="button"]{
+  width: 100px;
+  background-color: #0198ef;
+  border-radius: 20px;
+  margin-top: 10px;
+}
