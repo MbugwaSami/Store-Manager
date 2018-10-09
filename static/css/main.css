@@ -1,7 +1,6 @@
 /* style for body */
 body{
-  background-size: cover;
-  background-attachment: fixed;
+
 }
 /* this style is added to all elements */
 *{
@@ -41,7 +40,7 @@ body{
     padding: 15px;
 }
 
-/* style for card */
+/* style for login  card */
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -76,7 +75,6 @@ input[type="submit"],input[type="button"]{
 background-color: #40403f;
 height: 100vh;
 margin-top: 58px;
-margin-right: 2px;
 margin-left: 0px;
 width:15%;
 position: fixed;
@@ -93,12 +91,14 @@ color: white;
   color: #40403f;
 
 }
+/* style for the side body adjusent to sidenav */
 .sidebody{
   width: 85%;
   height: 100vh;
   float: right;
 
 }
+/* style for row with search box */
 .toprow{
   margin-top: 58px;
   padding-left: 50px;
@@ -109,4 +109,18 @@ color: white;
   border-radius: 20px;
   width:200px;
   height:35px;
+}
+/* style for table */
+table{
+width: 98%;
+border-collapse: collapse;
+margin-left: 1%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
