@@ -80,6 +80,7 @@ margin-right: 2px;
 margin-left: 0px;
 width:15%;
 position: fixed;
+float: left;
 }
 .sidenav a{
 text-decoration: none;
@@ -90,10 +91,22 @@ color: white;
 .sidenav a:hover{
   background-color: #e3e3e0;
   color: #40403f;
-  float: left;
+
 }
 .sidebody{
   width: 85%;
   height: 100vh;
-  float: left;
+  float: right;
+
+}
+.toprow{
+  margin-top: 58px;
+  padding-left: 50px;
+  border-bottom: 1px solid #e3e3e0;
+  height :50px;
+  }
+.toprow input{
+  border-radius: 20px;
+  width:200px;
+  height:35px;
 }
