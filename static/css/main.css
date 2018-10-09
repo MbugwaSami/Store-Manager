@@ -1,0 +1,25 @@
+/* style for body */
+body{
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* this style is added to all elements */
+*{
+  box-sizing: border-box;
+}
+/* style for nav */
+.navbar{
+  background-color: #0198ef;
+  height: 50px;
+  color: white;
+  overflow: hidden;
+  margin-top: 0px;
+}
+/* style for the navbar menus */
+.navbar a{
+  color: white;
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+
+}
