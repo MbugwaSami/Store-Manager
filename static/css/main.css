@@ -75,7 +75,7 @@ input[type="submit"],input[type="button"]{
 }
 /*style the side navbar*/
 .sidenav{
-background-color: #40403f;
+background-color: 3f78b7;
 height: 100vh;
 margin-top: 58px;
 margin-left: 0px;
@@ -103,7 +103,6 @@ color: white;
 }
 /* style for row with search box */
 .toprow{
-  margin-top: 58px;
   padding-left: 50px;
   border-bottom: 1px solid #e3e3e0;
   height :50px;
